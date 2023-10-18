@@ -1,0 +1,39 @@
+/* ==UserStyle==
+@name           Github Compact
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Github Compact style + distinctive tabs
+@author         Vallek
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+    .AppHeader-globalBar {
+        padding: 0.5em !important;
+    }
+    .notification-shelf.is-stuck {
+        padding: 0.5em;
+    }
+    /* Tabs */
+    .UnderlineNav {
+        min-height: 2rem;
+    }
+    .UnderlineNav.overflow-hidden {
+        overflow: visible !important;
+    }
+    .d-inline-flex {
+        border: 1px solid #8080805e;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgba(128, 128, 128, 0.37);
+        border-radius: 5px 5px 0 0;
+    }
+    .UnderlineNav-item.selected {
+        background-color: white;
+    }
+    .UnderlineNav-item.selected::after {
+        background: var(--underlineNav-borderColor-active, #fff) !important;
+        bottom: -0.4em !important;
+        height: 5px !important;
+    }
+    
+}
