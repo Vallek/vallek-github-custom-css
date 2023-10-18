@@ -20,7 +20,7 @@
     .UnderlineNav.overflow-hidden {
         overflow: visible !important;
     }
-    .d-inline-flex {
+    .AppHeader-localBar .d-inline-flex {
         border: 1px solid #8080805e;
         border-bottom-width: 1px;
         border-bottom-style: solid;
