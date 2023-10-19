@@ -79,6 +79,5 @@
         background: var(--underlineNav-borderColor-active, #fff) !important;
         bottom: -0.4em !important;
         height: 5px !important;
-    }
-    
+    }   
 }

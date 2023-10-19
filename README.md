@@ -1,5 +1,4 @@
-# vallek-github-custom-css
-Github Compact style
+# Github Compact style
 
 ## Before / After
 ![vallek-github-custom-css-1](https://github.com/Vallek/vallek-github-custom-css/assets/22982571/52b574e8-ea52-4be4-87c3-55879dadc425)
