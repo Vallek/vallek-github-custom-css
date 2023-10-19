@@ -5,7 +5,7 @@
 ![vallek-github-custom-css-2](https://github.com/Vallek/vallek-github-custom-css/assets/22982571/00667131-6ce9-419b-8e22-9b6dc64cea47)
 
 ## Features
-1. Smaller vertical paddings
-2. Smaller buttons
-3. Distinctive tabs with borders
-4. Tabs are centered
+* Smaller vertical paddings
+* Smaller buttons
+* Distinctive tabs with borders
+* Tabs are centered
