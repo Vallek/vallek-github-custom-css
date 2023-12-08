@@ -10,5 +10,5 @@
 * Distinctive tabs with borders
 * Tabs are centered
 
-## Other style support
+## Other styles support
 * [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) is supported only when activated by dark theme (not if always activated, see GitHub-Dark settings)
