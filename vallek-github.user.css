@@ -83,10 +83,10 @@
     /* Active Tab color for dark theme */
     @media (prefers-color-scheme: dark) {
         .UnderlineNav-item.selected {
-        background-color: #0d1117;
+        background-color: var(--ghd-bg-color, #0d1117) !important;
      }
         .UnderlineNav-item.selected::after {
-        background: var(--underlineNav-borderColor-active, #0d1117) !important;
+        background: var(--underlineNav-borderColor-active, var(--ghd-bg-color)) !important;
      }
     }
 }
