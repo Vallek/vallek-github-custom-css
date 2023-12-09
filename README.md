@@ -11,4 +11,6 @@
 * Tabs are centered
 
 ## Other styles support
-* [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark) is supported only when activated by dark theme (not if always activated, see GitHub-Dark settings)
+* [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
+
+If you found any problem please create an issue!
