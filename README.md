@@ -9,6 +9,7 @@
 * Smaller buttons
 * Distinctive tabs with borders
 * Tabs are centered
+* Dark theme support
 
 ## Other styles support
 * [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
