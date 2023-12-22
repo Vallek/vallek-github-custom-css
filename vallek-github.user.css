@@ -85,7 +85,8 @@
     /* Active Tab color for dark theme */
     @media (prefers-color-scheme: dark) {
         .UnderlineNav-item.selected {
-        background: var(--ghd-bg-color, #0d1117) var(--ghd-bg-img) !important;
+        background: var(--ghd-bg-color, #0d1117) !important;
+        background-image: var(--ghd-bg-img) !important;
      }
         .UnderlineNav-item.selected::after {
         background: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
