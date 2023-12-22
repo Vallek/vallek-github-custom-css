@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        1.3.3
+@version        1.3.4
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -73,7 +73,7 @@
         border-radius: 5px 5px 0 0;
     }
     .UnderlineNav-item.selected {
-        background-color: var(--ghd-bg-color, var(--color-canvas-default));
+        background: var(--ghd-bg-color, var(--color-canvas-default)) var(--ghd-bg-img) !important;
     }
     .UnderlineNav-item.selected::after {
         background: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
@@ -84,7 +84,7 @@
     /* Active Tab color for dark theme */
     @media (prefers-color-scheme: dark) {
         .UnderlineNav-item.selected {
-        background-color: var(--ghd-bg-color, #0d1117) !important;
+        background: var(--ghd-bg-color, #0d1117) var(--ghd-bg-img) !important;
      }
         .UnderlineNav-item.selected::after {
         background: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
