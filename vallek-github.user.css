@@ -1,102 +1,102 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        1.3.8
+@version        1.3.9
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
 
 @-moz-document domain("github.com") {
-    /* Padding Size */
-    .AppHeader-globalBar {
-        padding: 0.5em !important;
-    }
-    .notification-shelf.is-stuck {
-        padding: 0.5em !important;
-    }
-    /* Buttons Size */
-    .AppHeader-globalBar-start,
-    .AppHeader-globalBar-end,
-    .AppHeader-actions,
-    .AppHeader-context {
-        display: flex;
-        align-items: center;
-    }
-    .Button-withTooltip {
-        display: block !important;
-    }
-    .AppHeader-logo,
-    .AppHeader-user .avatar,
-    a.AppHeader-button,
-    .AppHeader-actions > .Button-withTooltip,
-    .AppHeader-notifications-button,
-    .octicon-mark-github,
-    .AppHeader-globalBar-start .Button--iconOnly {
-        width: 1.8em !important;
-        height: 1.8em !important;
-    }
-    .AppHeader-context-full,
-    .AppHeader-context-item {
-        height: 1.8em !important;
-    }
-    button.AppHeader-button {
-        height: 2.1em !important;
-    }
-    .AppHeader-searchButton {
-        max-height: 1.8em !important;
-        line-height: 1 !important;
-    }
-    .AppHeader-search-visual--leading {
-        top: 0.4em !important;
-    }
-    .AppHeader-search-action--trailing {
-        top: 0 !important;
-    }
-    /* Ava background fix */
-    .AppHeader-user .Button--invisible {
-        height: unset !important;
-    }
-    /* Center Tabs */
-    .AppHeader-localBar {
-        max-width: 1280px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    /* Tabs */
-    .UnderlineNav {
-        min-height: 2rem !important;
-    }
-    .UnderlineNav.overflow-hidden {
-        overflow: visible !important;
-    }
-    .AppHeader-localBar .d-inline-flex {
-        border: 1px solid #8080805e;
-        border-bottom-width: 1px;
-        border-bottom-style: solid;
-        border-bottom-color: rgba(128, 128, 128, 0.37);
-        border-radius: 5px 5px 0 0;
-    }
-    .UnderlineNav-item.selected {
-        --underlineNav-borderColor-active: #ffffff;
-        background-color: var(--bgColor-default, var(--color-canvas-default)) !important;
-        background-image: var(--ghd-bg-img) !important;
-    }
-    .UnderlineNav-item.selected::after {
-        background: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
-        background-image: var(--ghd-bg-img) !important;
-        transform: translateX(50%) !important;
-        bottom: -2px !important;
-        height: 3px !important;
-    }
-    /* Active Tab color for dark theme */
-    @media (prefers-color-scheme: dark) {
-        .UnderlineNav-item.selected {
-            --underlineNav-borderColor-active: #0d1117;
-            background-color: var(--ghd-bg-color, #0d1117) !important;
-            background-image: var(--ghd-bg-img) !important;
-     }
-        .UnderlineNav-item.selected::after {
-            background: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
-     }
-    }
+	/* Padding Size */
+	.AppHeader-globalBar {
+		padding: 0.5em !important;
+	}
+	.notification-shelf.is-stuck {
+		padding: 0.5em !important;
+	}
+	/* Buttons Size */
+	.AppHeader-globalBar-start,
+	.AppHeader-globalBar-end,
+	.AppHeader-actions,
+	.AppHeader-context {
+		display: flex;
+		align-items: center;
+	}
+	.Button-withTooltip {
+		display: block !important;
+	}
+	.AppHeader-logo,
+	.AppHeader-user .avatar,
+	a.AppHeader-button,
+	.AppHeader-actions > .Button-withTooltip,
+	.AppHeader-notifications-button,
+	.octicon-mark-github,
+	.AppHeader-globalBar-start .Button--iconOnly {
+		width: 1.8em !important;
+		height: 1.8em !important;
+	}
+	.AppHeader-context-full,
+	.AppHeader-context-item {
+		height: 1.8em !important;
+	}
+	button.AppHeader-button {
+		height: 2.1em !important;
+	}
+	.AppHeader-searchButton {
+		max-height: 1.8em !important;
+		line-height: 1 !important;
+	}
+	.AppHeader-search-visual--leading {
+		top: 0.4em !important;
+	}
+	.AppHeader-search-action--trailing {
+		top: 0 !important;
+	}
+	/* Ava background fix */
+	.AppHeader-user .Button--invisible {
+		height: unset !important;
+	}
+	/* Center Tabs */
+	.AppHeader-localBar {
+		max-width: 1280px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	/* Tabs */
+	.UnderlineNav {
+		min-height: 2rem !important;
+	}
+	.UnderlineNav.overflow-hidden {
+		overflow: visible !important;
+	}
+	.AppHeader-localBar .d-inline-flex {
+		border: 1px solid #8080805e;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		border-bottom-color: rgba(128, 128, 128, 0.37);
+		border-radius: 5px 5px 0 0;
+	}
+	.UnderlineNav-item.selected {
+		--underlineNav-borderColor-active: #ffffff;
+		background-color: var(--bgColor-default, var(--color-canvas-default)) !important;
+		background-image: var(--ghd-bg-img) !important;
+	}
+	.UnderlineNav-item.selected::after {
+		background-color: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
+		background-image: var(--ghd-bg-img) !important;
+		transform: translateX(50%) !important;
+		bottom: -2px !important;
+		height: 3px !important;
+	}
+	/* Active Tab color for dark theme */
+	@media (prefers-color-scheme: dark) {
+		.UnderlineNav-item.selected {
+			--underlineNav-borderColor-active: #0d1117;
+			background-color: var(--ghd-bg-color, #0d1117) !important;
+			background-image: var(--ghd-bg-img) !important;
+		}
+		.UnderlineNav-item.selected::after {
+			background-color: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
+		}
+	}
 }
