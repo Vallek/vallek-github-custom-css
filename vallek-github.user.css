@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.0.0
+@version        2.0.1
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -49,6 +49,7 @@
     margin-left: auto;
     margin-right: auto;
     align-items: end;
+    overflow: visible;
   }
   /* Tabs */
   li[class*="prc-UnderlineNav-UnderlineNavItem"] {
@@ -70,11 +71,18 @@
     background-image: var(--ghd-bg-img) !important;
   }
   a[class*="prc-components-UnderlineItem"][aria-current]::after {
-    background-color: var(--underlineNav-borderColor-active, var(--ghd-bg-color, var(--color-canvas-default))) !important;
-    background-image: var(--ghd-bg-img) !important;
-    transform: translateX(50%) !important;
-    bottom: -2px !important;
+    display: block;
     height: 3px !important;
+    bottom: -1px !important;
+    left: 50%;
+    transform: translateX(-50%) !important;
+    background-color: #fff !important;
+    background-image: var(--ghd-bg-img) !important;
+    width: calc(100% - 1px);
+  }
+  /* Remove vertical scroll on tab bar bug */
+  a[class*="prc-components-UnderlineItem"]::after {
+    display: none;
   }
   /* Active Tab color for dark theme */
   @media (prefers-color-scheme: dark) {
