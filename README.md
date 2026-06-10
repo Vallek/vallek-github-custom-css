@@ -15,3 +15,5 @@
 * [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
 
 If you found any problem please create an issue!
+
+[Support me of boosty](https://boosty.to/vallek) if you like this style)
