@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.1
+@version        2.2
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -54,34 +54,23 @@
   /* Tabs */
   li[class*="prc-UnderlineNav-UnderlineNavItem"] {
     min-height: 1rem !important;
-  }
-  li[class*="prc-UnderlineNav-UnderlineNavItem"].overflow-hidden {
-    overflow: visible !important;
-  }
-  li[class*="prc-UnderlineNav-UnderlineNavItem"] {
     border: 1px solid #8080805e;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgba(128, 128, 128, 0.37);
     border-radius: 5px 5px 0 0;
   }
+  li[class*="prc-UnderlineNav-UnderlineNavItem"].overflow-hidden {
+    overflow: visible !important;
+  }
   a[class*="prc-components-UnderlineItem"] {
+    margin-bottom: 0 !important;
     padding: 0.3em 0.5em !important;
   }
   a[class*="prc-components-UnderlineItem"][aria-current] {
     --underlineNav-borderColor-active: #ffffff;
     background-color: var(--bgColor-default, var(--color-canvas-default)) !important;
     background-image: var(--ghd-bg-img) !important;
-  }
-  a[class*="prc-components-UnderlineItem"][aria-current]::after {
-    display: block;
-    height: 3px !important;
-    bottom: -1px !important;
-    left: 50%;
-    transform: translateX(-50%) !important;
-    background-color: #fff !important;
-    background-image: var(--ghd-bg-img) !important;
-    width: calc(100% - 1px);
   }
   /* Remove vertical scroll on tab bar bug */
   a[class*="prc-components-UnderlineItem"]::after {
