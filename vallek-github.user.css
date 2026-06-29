@@ -63,6 +63,9 @@
   li[class*="prc-UnderlineNav-UnderlineNavItem"].overflow-hidden {
     overflow: visible !important;
   }
+  li[class*="prc-UnderlineNav-UnderlineNavItem"]:has(a[class*="prc-components-UnderlineItem"][aria-current]) {
+    border-bottom: 0 !important;
+  }
   a[class*="prc-components-UnderlineItem"] {
     margin-bottom: 0 !important;
     padding: 0.3em 0.5em !important;
@@ -71,6 +74,7 @@
     --underlineNav-borderColor-active: #ffffff;
     background-color: var(--bgColor-default, var(--color-canvas-default)) !important;
     background-image: var(--ghd-bg-img) !important;
+    border-radius: 0 !important;
   }
   /* Remove vertical scroll on tab bar bug */
   a[class*="prc-components-UnderlineItem"]::after {
