@@ -10,6 +10,7 @@
 * Distinctive tabs with borders
 * Tabs are centered
 * Dark theme support
+* Turns muted text color of commits and other repo info back to normal
 
 ## Other styles support
 * [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
