@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.4
+@version        2.4.1
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -28,6 +28,9 @@
     padding: 0.3em !important;
     height: auto;
   }
+  button[class*="prc-Button-ButtonBase"][class*="styles-module__appHeaderButton"][class*="prc-Button-IconButton-fyge7"] {
+    padding: 0 !important;
+  }
   div[data-testid="top-nav-right"] button[class*="GlobalUserNavDrawer-module__anchor"] {
     width: auto;
     border: none !important;
@@ -40,6 +43,9 @@
   .octicon-mark-github {
     width: 1.8em !important;
     height: 1.8em !important;
+  }
+  .octicon.octicon-arrow-up-right {
+    margin-bottom: 0 !important;
   }
   /* Center Tabs */
   nav[class*="prc-components-UnderlineWrapper"] {
