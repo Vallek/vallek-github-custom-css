@@ -11,6 +11,7 @@ Compact Github style + distinctive centered tabs and other tweaks
 * Distinctive tabs with borders
 * Tabs are centered
 * Turns muted text color of commits and other repo info back to normal
+* Hide users avatars on comments reactions
 * Dark theme support
 
 ## Other styles support
