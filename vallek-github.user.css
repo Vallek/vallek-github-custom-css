@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.5
+@version        2.5.1
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -110,7 +110,8 @@
     opacity: 1 !important;
   }
  /* Hide users avatars on comments reactions */
-  button[class*="prc-Button-ButtonBase"][class*="ReactionButton-module__reactionToggleButton"] > span:nth-child(n+2) {
+  button[class*="prc-Button-ButtonBase"][class*="ReactionButton-module__reactionToggleButton"] > span:nth-of-type(n+2),
+  button.social-reaction-summary-item > span:nth-of-type(n+2) {
     display: none !important;
   }
 }
