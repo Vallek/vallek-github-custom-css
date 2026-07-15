@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.5.1
+@version        2.5.2
 @description    Github Compact style + distinctive tabs
 @author         Vallek
 ==/UserStyle== */
@@ -23,10 +23,13 @@
     height: 26px;
   }
   /* Header right buttons */
-  div[data-testid="top-nav-right"] button[class*="prc-Button-ButtonBase"],
+  div[data-testid="top-bar-actions"] button[class*="prc-Button-ButtonBase"],
   div[data-testid="top-nav-right"] a[class*="prc-Button-ButtonBase"] {
     padding: 0.3em !important;
     height: auto;
+  }
+  div[data-testid="top-nav-right"] button[class*="prc-Button-IconButton"] {
+    padding: 0 !important;
   }
   button[class*="prc-Button-ButtonBase"][class*="styles-module__appHeaderButton"][class*="prc-Button-IconButton-fyge7"] {
     padding: 0 !important;
