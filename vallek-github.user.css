@@ -104,7 +104,9 @@
   /* Turns muted text color back to normal on commits, repo info, etc */
   .react-directory-commit-age,
   .react-directory-commit-age > relative-time,
-  .Link--muted,
+  table[class*="Table-module__Box"] .Link--muted,
+  .BorderGrid .Link--muted,
+  .BorderGrid .color-fg-muted,
   .Link--secondary {
     --fgColor-muted: var(--fgColor-default) !important;
     --color-fg-muted: var(--fgColor-default) !important;
