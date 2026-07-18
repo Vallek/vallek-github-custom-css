@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.6
+@version        2.6.1
 @description    Github Compact style + distinctive tabs and other tweaks
 @author         Vallek
 ==/UserStyle== */
@@ -93,7 +93,7 @@
   }
   /* Notifications */
   .Box-header {
-    padding: var(--base-size-8) var(--stack-padding-normal) !important;
+    padding: var(--base-size-8) var(--stack-padding-normal);
   }
   .tabnav-tab {
     padding: var(--base-size-4) var(--control-medium-paddingInline-spacious) !important;
