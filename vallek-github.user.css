@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           Github Compact
 @namespace      github.com/openstyles/stylus
-@version        2.5.3
-@description    Github Compact style + distinctive tabs
+@version        2.6
+@description    Github Compact style + distinctive tabs and other tweaks
 @author         Vallek
 ==/UserStyle== */
 @-moz-document domain("github.com") {
@@ -85,6 +85,22 @@
     --underlineNav-borderColor-active: #ffffff;
 
     border-radius: 0 !important;
+  }
+  /* Repositories */
+  #user-repositories-list .tmp-py-4 {
+    padding-top: var(--base-size-16) !important;
+    padding-bottom: var(--base-size-16) !important;
+  }
+  /* Notifications */
+  .Box-header {
+    padding: var(--base-size-8) var(--stack-padding-normal) !important;
+  }
+  .tabnav-tab {
+    padding: var(--base-size-4) var(--control-medium-paddingInline-spacious) !important;
+  }
+  .notification-thread-subscription {
+    padding-top: var(--base-size-4) !important;
+    padding-bottom: var(--base-size-4) !important;
   }
   /* Remove vertical scroll on tab bar bug */
   a[class*="prc-components-UnderlineItem"]::after {
